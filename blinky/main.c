@@ -8,6 +8,6 @@ int main(void) {
 
     while (1) {
         PORTA.OUTTGL = (1 << PORT_NUM);
-        _delay_ms(1000);
+        _delay_ms(250);
     }
 }
